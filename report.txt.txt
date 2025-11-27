@@ -1,0 +1,66 @@
+                              AI Chatbot using GenAI (Google Gemini)
+
+INTRODUCTION:
+This project is a beginner-friendly AI chatbot made using Google Gemini Generative AI.
+It helps users by answering questions in simple language and giving small examples.
+The chatbot is built in Python and runs as a web app using Streamlit.
+
+OBJECTIVES:
+
+To build an AI chatbot using Generative AI.
+
+To create a simple chat interface using Streamlit.
+
+To take user questions and generate AI responses.
+
+To maintain chat history.
+
+TOOLS & TECHNOLOGIES USED:
+
+Python
+
+VS Code
+
+Streamlit
+
+Google Gemini API
+
+dotenv (for API key security)
+
+METHODOLOGY / WORKING:
+
+User types a message in the Streamlit app.
+
+The message is added to chat history.
+
+A study-buddy prompt is created.
+
+The prompt is sent to Gemini model using API.
+
+Gemini generates a response.
+
+The response is shown in the UI and saved in history.
+
+RESULTS:
+The chatbot successfully responds to study questions like:
+
+What is AI?
+
+What is GenAI?
+
+Explain ML in simple words.
+It gives short, easy answers with examples.
+
+CONCLUSION:
+This project shows how GenAI can be used to make a helpful chatbot.
+It is simple, beginner-friendly, and works in real time.
+
+FUTURE SCOPE:
+
+Add voice input/output
+
+Add PDF or notes Q&A feature
+
+Deploy online using Streamlit Cloud
+
+Add memory using database
